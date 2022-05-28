@@ -1,0 +1,48 @@
+.status
+{
+    color: red;
+    text-decoration: line-through;
+}
+.form {
+    max-width: 500px;
+    margin: auto;
+    display: grid;
+    grid-row-gap: 30px;
+    padding: 10px;
+  }
+  img,#button{
+      max-width: 500px;
+    margin: auto;
+  }
+  #button
+  {
+      background-color: #802C6E;
+  
+  }
+  
+  .form Button {
+    margin-top: 20px;
+    width: 100px;
+  }
+  .error {
+    color: red;
+  }
+  .login
+  {
+    text-decoration: none;
+    color: #802C6E;
+  }
+  p{
+    color: gray;
+    /* text-align: end; */
+  }
+  .checkout-steps>div{
+    border-top: 0.3rem red solid ;
+    color:red;
+    flex:1;
+    padding: 1rem;
+  }
+  .checkout-steps>div.active{
+    border-top-color: red;
+    color:red;
+  }
